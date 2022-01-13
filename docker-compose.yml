@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    volumes:
+      - minecraftdata:/data
+      - /home/minecraft/plugins:/plugins
+    ports:
+      - 25565:25565
+    environment:
+      EULA: "TRUE"
+      TYPE: "PAPER"
+      OPS: ""
+      ENABLE_WHITELIST: "TRUE"
+      ENFORCE_WHITELIST: "TRUE"
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+volumes:
+  minecraftdata:
+    external: true
