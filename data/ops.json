@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "3d3f1bd8-295a-415d-b116-713db5dd423a",
+    "name": "Query",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "25f99b70-4c99-3200-925d-4d9a2f93abfd",
+    "name": "query",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
