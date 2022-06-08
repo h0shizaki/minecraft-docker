@@ -18,9 +18,14 @@ docker exec -it [CONTAINER] bash
 # File setup  
 You can copy your old server data to folder data for play your old save!  
 
-
+# Reference 
+<a href="https://github.com/itzg/docker-minecraft-server">Docker image from itzg</a>  
+<a href="https://youtu.be/f1cGEr9L67Y">Youtube tutorial video</a>    
+   
 ## Note 
 Raspberry PI model 4 ram 4 Gb (LOW COST SERVER LOL).  
 But server is stable when it does not generate new chuck for player around 4-5 players  
 Remote shh with puTTy and copy file with WinSCP  
 If I did not create a new repo that means I have Minecraft addiction.  
+  
+  
